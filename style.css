@@ -1,26 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
 :root{
     --branco: rgb(255, 255, 255);
-    --cor-de-fundo: #406b5a;
-    --fundo-senha: #6bb498;
-    --fundo-texto: #6081a7;
-    --borda: #1e5e72;
+    --cor-de-fundo: #000000;
+    --fundo-senha: #998eff;
+    --fundo-texto: #857cdd;
+    --borda: #ffffff;
     --redhattext: 'Red Hat Text' monospace;
 }
 
 body{
-    color: var(--branco);
+    color:var(--branco);
     background-color: var(--cor-de-fundo);
     font-family: var(--redhattext);
 }
 
+
+
 .titulo-principal{
     font-family: var(--redhattext);
-    font-size: 30px;
+    font-size: 32px;
 }
 
 .titulo-secundario{
-    text-align: center;
+    font-size: 24px;
 }
 
 .conteudo-titulo{
@@ -29,10 +31,10 @@ body{
 }
 
 .conteudo-senha{
-    margin-top: 80px;
-    background: var(--fundo-senha);
-    padding: 25px;
-    border-bottom: 6px solid var(--borda);
+margin-top: 80px;
+background: var(--fundo-senha);
+padding: 24px;
+border-bottom: 6px solid var(--borda);
 }
 
 #campo-senha{
@@ -61,7 +63,7 @@ body{
 }
 
 .parametro-titulo {
-    font-family: var(--redhattext);
+    font-family: var(--roboto-mono);
     font-size: 28px;
 }
 
@@ -78,7 +80,6 @@ body{
 .parametro-senha {
     width: 50%;
     margin: 0 auto;
-
 }
 
 .parametro-senha-botoes {
@@ -86,7 +87,7 @@ body{
     justify-content: center;
 }
 
-.parametro-senha-botao {
+.parametro-senha__botao {
     background-color: var(--fundo-texto);
     color: var(--branco);
     border: 2px solid var(--borda);
@@ -127,16 +128,16 @@ label {
 
 .fraca {
     width: 25%;
-    background-color: #e71b32;
+    background-color: #E71B32;
 }
 
 .media {
-    background-color: #faf408;
+    background-color: #FAF408;
     width: 50%;
 }
 
 .forte {
-    background-color: #00ff62;
+    background-color: #00FF85;
     width: 100%;
 }
 
